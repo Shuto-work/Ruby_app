@@ -1,4 +1,4 @@
-<h1>トップページ</h1>
+<h1>Top page</h1>
 <%= link_to '新規投稿', '/posts/new' %>
 <% @posts.each do |post| %>
   <div class="post">
